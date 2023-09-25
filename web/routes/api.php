@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return "Hello API";
 });
+
+Route::post('api/addToSaveThisSearch', 'SaveThisTextController@store');
